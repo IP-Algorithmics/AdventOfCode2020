@@ -1,0 +1,26 @@
+{
+    "name": "adventofcode2020",
+    "version": "1.0.0",
+    "description": "Advent of code 2020 solutions",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node --project ./tsconfig.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IulianOctavianPreda/AdventOfCode2020.git"
+    },
+    "keywords": [
+        "AdventOfCode2020"
+    ],
+    "author": "Iulian Preda",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/IulianOctavianPreda/AdventOfCode2020/issues"
+    },
+    "homepage": "https://github.com/IulianOctavianPreda/AdventOfCode2020#readme",
+    "dependencies": {
+        "@types/node": "^14.14.10",
+        "typescript": "^4.1.2"
+    }
+}
