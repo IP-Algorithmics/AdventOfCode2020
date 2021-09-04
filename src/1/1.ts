@@ -1,5 +1,8 @@
-import { inputDataToIntArray } from './../shared';
 import { input1 } from './input';
+
+const inputDataToIntArray = (data: string, delimiter = '\n') => {
+    return data.split(delimiter).map((x) => parseInt(x, 10));
+};
 
 const solution1 = (arr: number[]) => {
     for (let value of arr) {
